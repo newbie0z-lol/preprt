@@ -5,7 +5,7 @@ if game.PlaceId == 286090429 then
 
 elseif game.PlaceId == 18192562963 then
     -- Cộng Đồng Việt Nam
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/anhlamgixungdangvoiem/checkkeypremium/refs/heads/main/checkkeypre.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/anhlamgixungdangvoiem/H-Ch-Minh/refs/heads/main/New%20Text%20Document%20(2).txt"))()
 
 end
 
