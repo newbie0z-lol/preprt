@@ -8,8 +8,12 @@ elseif game.PlaceId == 18192562963 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/anhlamgixungdangvoiem/H-Ch-Minh/refs/heads/main/New%20Text%20Document%20(2).txt"))()
 
 elseif game.PlaceId == 126509999114328 then
-    -- Tên Game (tùy bạn đặt)
+    -- 99 Night
     loadstring(game:HttpGet("https://raw.githubusercontent.com/anhlamgixungdangvoiem/checkkey99/refs/heads/main/99night%20rezhub.lua"))()
+
+elseif game.PlaceId == 94941998730756 then
+    -- Cộng Đồng Việt Nam Var Đơn
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/anhlamgixungdangvoiem/H-Ch-Minh/refs/heads/main/New%20Text%20Document%20(2).txt"))()
 end
 
 -- Ô lạc à chú em , đi về đi dumper hay spy cũng không có gì cho mày chơi đâu xéo dùm cái :]] yêu :33
