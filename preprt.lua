@@ -1,23 +1,21 @@
 
-if game.PlaceId == 286090429 then
-    -- Arsenal
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/anhlamgixungdangvoiem/asenal/refs/heads/main/rezcdvn.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/anhlamgixungdangvoiem/intro/refs/heads/main/rez%20intro.lua"))()
 
-elseif game.PlaceId == 18192562963 then
-    -- Cộng Đồng Việt Nam
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/anhlamgixungdangvoiem/H-Ch-Minh/refs/heads/main/New%20Text%20Document%20(2).txt"))()
+task.wait(10)
 
-elseif game.PlaceId == 126509999114328 then
-    -- 99 Night
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/anhlamgixungdangvoiem/checkkey99/refs/heads/main/99night%20rezhub.lua"))()
+local gameList = {
+    [286090429]       = "https://raw.githubusercontent.com/anhlamgixungdangvoiem/asenal/refs/heads/main/rezcdvn.lua", -- Arsenal
+    [18192562963]     = "https://raw.githubusercontent.com/anhlamgixungdangvoiem/H-Ch-Minh/refs/heads/main/New%20Text%20Document%20(2).txt", -- CDVN
+    [126509999114328] = "https://raw.githubusercontent.com/anhlamgixungdangvoiem/checkkey99/refs/heads/main/99night%20rezhub.lua", -- 99 Night
+	[79546208627805] = "https://raw.githubusercontent.com/anhlamgixungdangvoiem/intro-99-night/refs/heads/main/loader%2099%20night.lua", -- 99 Night Sảnh
+    [94941998730756]  = "https://raw.githubusercontent.com/anhlamgixungdangvoiem/H-Ch-Minh/refs/heads/main/New%20Text%20Document%20(2).txt", -- CDVN Var Đơn
+    [80469437126309]  = "https://raw.githubusercontent.com/anhlamgixungdangvoiem/MM2z/refs/heads/main/mm2.lua", -- MM2
+}
 
-elseif game.PlaceId == 94941998730756 then
-    -- Cộng Đồng Việt Nam Var Đơn
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/anhlamgixungdangvoiem/H-Ch-Minh/refs/heads/main/New%20Text%20Document%20(2).txt"))()
-	
-elseif game.PlaceId == 80469437126309 then
-    -- MM2
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/anhlamgixungdangvoiem/MM2z/refs/heads/main/mm2.lua"))()
+local scriptUrl = gameList[game.PlaceId]
+if scriptUrl then
+    loadstring(game:HttpGet(scriptUrl))()
+else
+    warn("Không hỗ trợ game này")
 end
-
--- Ô lạc à chú em , đi về đi dumper hay spy cũng không có gì cho mày chơi đâu xéo dùm cái :]] yêu :33
+-- Lạc À ? Lỡ rồi thì đi về đi chứ dumper vs spy cũng không có cái gì cho mày chơi đâu =33
