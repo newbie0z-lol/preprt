@@ -16,6 +16,6 @@ local scriptUrl = gameList[game.PlaceId]
 if scriptUrl then
     loadstring(game:HttpGet(scriptUrl))()
 else
-    warn("Không hỗ trợ game này")
+    game.Players.LocalPlayer:Kick("Không hỗ trợ game này | Not Support Game")
 end
 -- Lạc À ? Lỡ rồi thì đi về đi chứ dumper vs spy cũng không có cái gì cho mày chơi đâu =33
