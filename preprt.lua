@@ -15,7 +15,7 @@ elseif game.PlaceId == 94941998730756 then
     -- Cộng Đồng Việt Nam Var Đơn
     loadstring(game:HttpGet("https://raw.githubusercontent.com/anhlamgixungdangvoiem/H-Ch-Minh/refs/heads/main/New%20Text%20Document%20(2).txt"))()
 	
-elseif game.PlaceId == 142823291 then
+elseif game.PlaceId == 80469437126309 then
     -- MM2
     loadstring(game:HttpGet("https://raw.githubusercontent.com/anhlamgixungdangvoiem/MM2z/refs/heads/main/mm2.lua"))()
 end
