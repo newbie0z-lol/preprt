@@ -6,7 +6,7 @@ task.wait(10)
 local gameList = {
     [286090429]       = "https://raw.githubusercontent.com/anhlamgixungdangvoiem/asenal/refs/heads/main/rezcdvn.lua", -- Arsenal
     [18192562963]     = "https://raw.githubusercontent.com/anhlamgixungdangvoiem/H-Ch-Minh/refs/heads/main/New%20Text%20Document%20(2).txt", -- CDVN
-    [126509999114328] = "https://raw.githubusercontent.com/anhlamgixungdangvoiem/checkkey99/refs/heads/main/99night%20rezhub.lua", -- 99 Night
+    [126509999114328] = "https://raw.githubusercontent.com/anhlamgixungdangvoiem/99-riel/refs/heads/main/Protected_6123922988047707%20(2).lua", -- 99 Night
 	[79546208627805] = "https://raw.githubusercontent.com/anhlamgixungdangvoiem/intro-99-night/refs/heads/main/loader%2099%20night.lua", -- 99 Night Sảnh
     [94941998730756]  = "https://raw.githubusercontent.com/anhlamgixungdangvoiem/H-Ch-Minh/refs/heads/main/New%20Text%20Document%20(2).txt", -- CDVN Var Đơn
     [80469437126309]  = "https://raw.githubusercontent.com/anhlamgixungdangvoiem/MM2z/refs/heads/main/mm2.lua", -- MM2
